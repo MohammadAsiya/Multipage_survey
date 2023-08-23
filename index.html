@@ -4,34 +4,34 @@
         <link rel="stylesheet"href="style.css">
     </head>
     <body>
-        <div class="container">
-            <form id="Form1">
+        <div class="container" >
+            <form id="Form1" action="connect.php" method="post">
                 <h3>CREATE AN ACCOUNT</h3>
-                <input type="text"placeholder="email"required>
-                <input type="password"placeholder="password"required>
-                <input type="password"placeholder="Confirm password"required>
+                <input type="text"placeholder="email"required name="email">
+                <input type="password"placeholder="password"required name="password">
+                <input type="password"placeholder="Confirm_password"required name="Confirm_password">
                 <div class="btn-box">
                     <button type="button" id="Next1">Next</button>
                 </div>
             </form>
-            <form id="Form2">
+            <form id="Form2" action="connect.php" method="post">
                 <h3>Social links</h3>
-                <input type="text"placeholder="Medium"required>
-                <input type="password"placeholder="Github"required>
-                <input type="password"placeholder="Linkedin"required>
+                <input type="text"placeholder="Medium"required name="Medium">
+                <input type="text"placeholder="Github"required name="Github">
+                <input type="text"placeholder="Linkedin"required name="Linkedin">
                 <div class="btn-box">
                     <button type="button"id="Back1">Back</button>
                     <button type="button"id="Next2">Next</button>
                 </div>
             </form>
-            <form id="Form3">
+            <form id="Form3" action="connect.php" method="post">
                 <h3>Personal info</h3>
-                <input type="text"placeholder="Firstname"required>
-                <input type="password"placeholder="Lastname"required>
-                <input type="password"placeholder="Mobilenumber"required>
+                <input type="text"placeholder="Firstname"required name="Firstname">
+                <input type="text"placeholder="Lastname"required name="Lastname">
+                <input type="text"placeholder="Mobilenumber"required name="Mobilenumber">
                 <div class="btn-box">
                     <button type="button"id="Back2">Back</button>
-                    <button type="button"id="Submit">Submit</button>
+                    <button type="submit"id="Submit">Submit</button>
 
                 </div>
             </form>
